@@ -13,6 +13,10 @@ Creating a django application:
 
 python manage.py startapp hello
 
+- One note if you are trying to access a url like:
+	- localhost.com/anurag    -> Works !!
+	- localhost.com/anurag/   -> does not work because of extra slash
+
 - Install the app into the project:
 	- Open settings -> Add the path for the hello apps inside the INSTALLED_APPS.
 	- We can consider each view as somepage/route that user will be seeing.

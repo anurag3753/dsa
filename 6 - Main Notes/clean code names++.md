@@ -1,3 +1,13 @@
+
+2025-03-17 13:28
+
+Status:
+
+Tags: [[clean code terminology]] [[clean code]] [[chapter2]]
+
+
+# clean code names++
+
 #### Importance of Naming
 
 - Naming is a critical aspect of software development, as it is pervasive across directories, files, classes, methods, variables, and namespaces.
@@ -5,8 +15,7 @@
 
 #### Key Principles
 
-- **Reveal Intent**:
-    
+- **Reveal Intent**:    
     - Names should clearly convey the purpose of the entity they represent.
     - If a comment is needed to explain a name, the name is not sufficiently descriptive.
 
@@ -15,16 +24,18 @@
 	 - Use explanatory variables to clarify complex logic.
 	
 - **Avoid Implementation Details**:    
-    - Names should not describe implementation details but rather the problem being solved.
+    - Names should not describe implementation details, but rather the problem being solved.
     - Use known conventions and mathematical concepts where applicable (e.g., intervals for ranges).
     
 - **Avoid Disinformation**:    
     - Names should not mislead or provide incorrect information.
     - Avoid concrete names for abstract concepts and ensure names match their functionality.
+    - **It is one of the worst things that the programmer can commit**. It consumes a lot of developer time to make the new change.
 
 - **Pronounceable Names**:    
     - Choose names that are easy to pronounce to facilitate communication among developers.
     - Avoid cryptic abbreviations and ensure names are clear and understandable.
+    - Ex. `qty` is short for quantity. Use `quantity` instead of `qty`
     
 - **Avoid Encodings**:    
     - Avoid using prefixes or encodings that denote types (e.g., Hungarian Notation).
@@ -106,3 +117,8 @@
 			Funtions/Classes:
 				Opposite rule to the Variables
 	8. Any fool could write code that computer can understand. But a good programmer writes code that a human can understand.
+
+- Describe the Problem: `include_second`,`include_third`.
+	- Variable name should not try to describe the logic
+
+# References

@@ -3,7 +3,7 @@
 
 Status:
 
-Tags: [[notes/3 - Tags/clean code introduction|clean code introduction]] [[clean code terminology]] [[clean code]]
+Tags: [[notes/3 - Tags/clean code introduction|clean code introduction]] [[clean code terminology]] [[clean code]] [[chapter2]]
 
 
 # clean code introduction
@@ -53,7 +53,12 @@ Tags: [[notes/3 - Tags/clean code introduction|clean code introduction]] [[clean
 
 - Over time, software systems tend to degrade and become difficult to maintain, a phenomenon referred to as "software rot."
 - The text introduces the concept of "rigidity," where a system resists change and requires modifications in multiple places to fix a single issue, leading to unpredictability and blown estimates. 
-	- A system is rigid when that system requires us to make many changes at many different places in order to add a single new behavior or to fix a single bug 
+	- A system is rigid when that system requires us to make many changes at many different places in order to add a single new behavior or to fix a single bug
+- Rigid system makes any change hard for the developer, and they will be hesitated in giving the estimations to manager for the change.
+
+- ### The Challenges of Rigid Systems
+
+- Rigid systems are described as unpredictable and difficult to estimate, leading to frustration and blown estimates. The text humorously illustrates the challenges of dealing with such systems.
 
 ### The Importance of Addressing Code Quality
 
@@ -99,17 +104,13 @@ Tags: [[notes/3 - Tags/clean code introduction|clean code introduction]] [[clean
     - **Bjarne Stroustrup**: Clean code should be elegant and efficient, doing one thing well.
 	    - Elegant code: Is the code that does a lot of things in few words.
 	    - Efficient Code: is code that uses very less CPU cycles
-    - **Grady Booch**: Clean code is simple, direct, and reads like well-written prose.- 
-    - **Michael Feathers**: Clean code looks like it was written by someone who cares.- 
+    - **Grady Booch**: Clean code is simple, direct, and reads like well-written prose. 
+    - **Michael Feathers**: Clean code looks like it was written by someone who cares.
     - **Ward Cunningham**: Clean code is predictable, with routines that meet expectations.
 
 ### The Boy Scout Rule
 
 - The idea of leaving code better than you found it is introduced, inspired by Robert Baden Powell's exhortation to leave the world better than you found it. This encourages developers to make small improvements to the codebase continuously.
-
-### The Challenges of Rigid Systems
-
-- Rigid systems are described as unpredictable and difficult to estimate, leading to frustration and blown estimates. The text humorously illustrates the challenges of dealing with such systems.
 
 ### Lessons Learned
 
