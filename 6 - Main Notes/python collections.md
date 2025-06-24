@@ -2,7 +2,7 @@
 
 Status: #baby
 
-Tags: [[python collections]]
+Tags: [[python collections]] [[python]]
 
 # Counter
 
@@ -28,6 +28,10 @@ if operator.eq(s, t):
 else:
     print("Not Equal")
 ```
+
+
+
+
 
 References
 [GFG](https://www.geeksforgeeks.org/python-counter-objects-elements/)
