@@ -35,7 +35,6 @@ parts = filename.rsplit('.', 1) # This is better in this case, as it will split 
 - `isalpha()`: It checks if all the characters are alphabets. Returns True/False
 - `isalnum()`: The `isalnum()` method returns True if all the characters are alphanumeric, meaning alphabet letter (a-z) and numbers (0-9).
 - `isnumeric()/isdigit()`: returns True if all characters in the string are numeric, such as digits, and False if the string contains any non-numeric character
-- `upper()`: Converts all the characters to upper-case
 - 
 
 ### Join

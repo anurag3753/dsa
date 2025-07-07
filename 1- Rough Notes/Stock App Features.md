@@ -1,8 +1,7 @@
 
 1. Get Holdings
 2. Get Gtts
-3. Get the LTP for the Stock
-4. List the GTT orders from the app and place them which fulfills the criteria
+3. List the GTT orders from the app and place them which fulfills the criteria
 
 
 User should be able to click these various features from the home page ?

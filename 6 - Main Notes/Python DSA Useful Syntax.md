@@ -5,8 +5,6 @@ Status:
 
 Tags: [[notes/3 - Tags/dsa|dsa]] [[python]] [[syntax]]
 
-
-
 # Python DSA Useful Syntax
 
 ### Represent largest and smallest number
@@ -15,6 +13,19 @@ Tags: [[notes/3 - Tags/dsa|dsa]] [[python]] [[syntax]]
 largest = float("inf")
 smallest = float("-inf")
 ```
+
+# Using Sort and Sorted
+#### sort:
+- `sort()`: is a method that can be used on lists, but not directly on strings. Strings are immutable in Python, so you cannot sort them in place.
+- **Modifies the List in Place**: `sort()` sorts the list it is called on and modifies it directly.
+- **Syntax**: `list.sort(key=None, reverse=False)`
+#### sorted:
+- `sorted()`: **Applicable to Strings**: `sorted()` can be used to sort the characters within a string. It returns a list of characters sorted in ascending order (by default).
+- **Returns a New List**: `sorted()` does not modify the original string. Instead, it returns a new list containing the sorted characters.
+- **Syntax**: `sorted(iterable, key=None, reverse=False)`
+
+
+
 
 ### Reverse a python list, with the specific left and right index
 - Given a list say `arr=[1, 2, 3, 4, 5, 6]` reverse sublist from (0, 3) index

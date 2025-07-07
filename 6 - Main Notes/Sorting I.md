@@ -7,7 +7,7 @@ Status:
 Tags: [[dsa sorting]]
 
 
-# dsa sorting I
+# Sorting I
 
 
 ### Selection Sort:
@@ -58,15 +58,15 @@ def selection_sort(arr):
 def insertion_sort(arr):
     n = len(arr)
     for i in range(1, n): # 1st element is already sorted, Also running from 0 will also work.
-        ele = arr[i]
+        key = arr[i]
         j = i - 1
         """We need to break from loop, when correct position is found.
         For loop, we need to unnecessary do break etc. Safe to use while loop.
         """
-        while j >= 0 and arr[j] > ele:
+        while j >= 0 and arr[j] > key:
             arr[j+1] = arr[j]
             j -= 1
-        arr[j+1] = ele
+        arr[j+1] = key
 
 def main():
     print("Before Sorting:", arr)

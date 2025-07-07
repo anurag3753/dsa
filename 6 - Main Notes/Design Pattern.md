@@ -11,16 +11,17 @@ Tags: [[notes/3 - Tags/design pattern|design pattern]] [[notes/3 - Tags/observer
 1. [[notes/6 - Main Notes/Strategy Design Pattern|Strategy Design Pattern]] : It is used whenever there are multiple algorithms/strategies to perform a particular task and which strategy to use is decided at the runtime. Basically, we encapsulate these strategies into separate classes and dynamically decide which one we want to use. **Example:** Different Sorting Algorithms
 2. [[notes/6 - Main Notes/Observer Design Pattern|Observer Design Pattern]] : The **Observer** pattern is a software design pattern in which an object, called the **Subject** (**Observable**), manages a list of dependents, called **Observers**, and notifies them automatically of any internal state changes by calling one of their methods.
 3. [[notes/6 - Main Notes/Decorator Design Pattern|Decorator Design Pattern]] : The **Decorator Design Pattern** allows you to add new functionality to objects dynamically by wrapping them with decorator classes, without altering their structure.
-4. [Singleton Pattern](singleton_pattern.md)
-5. [Factory Pattern](factory_pattern.md)
-6.  [Adapter Pattern](adapter_pattern.md)
-7. [Facade Pattern](facade_pattern.md)
+4. [[notes/6 - Main Notes/Factory Design Pattern|Factory Design Pattern]] : It is a creation design pattern. It is used when we want to create an object, but based on some conditions.
+5. [Singleton Pattern](singleton_pattern.md)
+6. 
+7.  [Adapter Pattern](adapter_pattern.md)
+8. [Facade Pattern](facade_pattern.md)
 
-8. [Command Pattern](command_pattern.md)
+9. [Command Pattern](command_pattern.md)
 
-9. [Prototype Pattern](prototype_pattern.md)
+10. [Prototype Pattern](prototype_pattern.md)
 
-10. [Builder Pattern](builder_pattern.md)
+11. [Builder Pattern](builder_pattern.md)
 
   ---
 UML Diagrams references:
